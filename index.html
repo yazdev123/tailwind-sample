@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" class="relative">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind IT Solutions</title>
+    <link rel="icon shortcut" type="image/x-icon" href="./dist/images/tailwind-favicon.png">
+    <link rel="stylesheet" href="./dist//css/fontello-embedded.css">
+    <link rel="stylesheet" href="./dist/css/app.css">
+</head>
+
+<body>
+    <a href="#home" class="fixed totop rounded-full h-16 w-16 flex justify-center items-center text-white text-xl transition duration-100 bg-black opacity-50 hover:opacity-75 z-50"><i class="icon-up-open-big"></i></a>
+    <div class="header bg-ti-nav w-full fixed left-0 top-0 md:shadow z-10 px-4 raleway md: bg-opacity-100">
+        <div class="md:container mx-auto flex flex-col lg:flex-row lg:justify-between lg:items-center">
+            <div class="flex justify-center lg:justify-start shadow md:shadow-none -mx-4 md:mx-0">
+                <a href="" class="logo block float-left py-2 md:py-3 px-2">
+                    <img src="./dist/images/logo.png" class="w-32" alt="">
+                </a>
+            </div>
+            <div class="border rounded border-ti-ham-border md:border-none mt-2 py-2">
+                <input class="menu-btn hidden" type="checkbox" id="menu-btn" />
+                <label class="menu-icon cursor-pointer inline-block float-right w-10 h-8 flex justify-center items-center relative select-none border rounded border-ti-ham md:hidden hover:border-ti-blue mr-4 " for="menu-btn"><span class="navicon relative block"></span></label>
+                <ul class="menu m-0 p-0 list-none overflow-hidden md:overflow-visible md:clear-none lg:float-right clear-both capitalize text-sm lg:text-base md:flex md:justify-center">
+                    <li class=" md:float-left border-t border-ti-ham-border mt-2 md:border-none md:mt-0"><a class="block py-2 px-3 transform-none hover:text-ti-blue" href="#home">Home</a></li>
+                    <li class=" md:float-left border-t border-ti-ham-border md:border-none"><a class="block py-2 px-3 transform-none hover:text-ti-blue" href="#about">About</a></li>
+                    <li class=" md:float-left border-t border-ti-ham-border md:border-none"><a class="block py-2 px-3 transform-none hover:text-ti-blue" href="#whyus">Why Us</a></li>
+                    <li class=" md:float-left border-t border-ti-ham-border md:border-none"><a class="block py-2 px-3 transform-none hover:text-ti-blue" href="#services">Services</a></li>
+                    <li class=" md:float-left border-t border-ti-ham-border md:border-none"><a class="block py-2 px-3 transform-none hover:text-ti-blue" href="#process">Process</a></li>
+                    <li class=" md:float-left border-t border-ti-ham-border md:border-none"><a class="block py-2 px-3 transform-none hover:text-ti-blue" href="#team">Team</a></li>
+                    <li class="relative md:float-left border-t border-ti-ham-border md:border-none group"><a class="block py-2 px-3 transform-none hover:text-ti-blue" href="#showcase">Demo Showcase<i class='icon-down-open text-ti-primary-dark ml-1 text-xs group-hover:text-ti-blue'></i></a>
+                        <div class="absolute dropdown bottom-0 md:top-0 left-0 mb-10 md:mt-8 md:pt-4">
+                            <div class="bg-white border-ti-border px-3 text-sm w-56 border shadow-md transform origin-bottom h-0 overflow-hidden group-hover:h-auto opacity-0 group-hover:opacity-100 translate duration-200">
+                                <div class="flex flex-col">
+                                    <a href="/" class="py-2 hover:text-ti-blue">Photo Gallery</a>
+                                    <a href="/" class="py-2 hover:text-ti-blue">Songs CRUD</a>
+                                    <a href="/" class="py-2 hover:text-ti-blue flex items-center justify-between">Spotify Clone <span class="text-xs text-ti-primary-dark">new!</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class=" md:float-left border-t border-ti-ham-border md:border-none"><a class="block py-2 px-3 transform-none hover:text-ti-blue mb-2 md:mb-0" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="home" class="h-0 absolute top-0"></div>
+    <div id="about" class="px-4 mt-40 md:mt-56 lg:mt-40">
+        <div class="container mx-auto">
+            <p class="raleway text-7 uppercase text-center">about <b class="text-ti-title-blue">tailwind</b></p>
+            <div class="mt-4 w-3/4 mx-auto relative h-px divider"></div>
+            <div class="flex flex-col lg:flex-row mt-5 gap-8">
+                <div class="w-full lg:w-2/3">
+                    <p class="text-lg raleway">Who we are and what we do</p>
+                    <p class="mt-2 text-ti-primary-dark">Tailwind IT Solutions is based in the Judean Hills of Israel, located about 20 minutes from Jerusalem. The Hebrew name for "Tailwind" is "Ruach Gabit" (רוח גבית). "Ruach" (רוח) means "wind" or "sprint" and "gabit" (גבית) means "towards
+                        the direction of our back."</p>
+                    <p class="mt-2 text-ti-primary-dark">Tailwind IT Solutions was founded in 2019 by two experienced web developers: Joseph Magen and Tomi Frank.</p>
+                    <p class="mt-2 text-ti-primary-dark">We believe that web technology should serve as a "tailwind" pushing your business forward. Unfortunately, for many businesses, it can be a "headwind" slowing you down. Tailwind is a custom web development boutique that specializes
+                        in creating custom-made tailored solutions for your business that truly serve as a "tailwind" (ruach gabit) to propel you forward.</p>
+                    <p class="mt-2 text-ti-primary-dark mb-4">We believe that web technology sGet in touch with us to learn more how Tailwind can serve as the wind at your back for your business.</p>
+                    <a class="rounded px-4 py-2 text-xs text-white capitalize bg-ti-btn hover:bg-ti-blue transition duration-100 border-ti-blue cursor-pointer">contact
+                        us <span class="text-base font-bold"><i class="icon-right-big"></i> </span></a>
+                </div>
+                <div class="w-full lg:w-1/3">
+                    <img src="./dist/images/top-section.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="whyus" class="px-4 mt-12 bg-ti-section-blue">
+        <div class="container mx-auto py-10">
+            <p class="raleway text-7 uppercase text-center text-white">why <b class="text-white">choose us</b></p>
+            <div class="mt-4 mb-6 w-3/4 mx-auto relative h-px white-divider"></div>
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="w-full lg:w-1/3 flex">
+                    <div class="w-12 h-12 flex-none text-white bg-ti-btn rounded text-lg flex justify-center items-center mr-3 mt-1">
+                        <i class="icon-connectdevelop"></i>
+                    </div>
+                    <div>
+                        <p class="raleway text-2xl text-white mb-1 leading-tight">Innovative technologies</p>
+                        <p class="text-white leading-snug text-lg">We use the most innovative and up-to-date web technologies in the market today.</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/3 flex">
+                    <div class="w-12 h-12 flex-none text-white bg-ti-btn rounded text-lg flex justify-center items-center mr-3 mt-1">
+                        <i class="icon-ok"></i>
+                    </div>
+                    <div>
+                        <p class="raleway text-2xl text-white mb-1 leading-tight">Trust guarantee</p>
+                        <p class="text-white leading-snug text-lg">It is important for us to build trust. If you are not satisfied with our work, you may receive up to a full refund.</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/3 flex">
+                    <div class="w-12 h-12 flex-none text-white bg-ti-btn rounded text-lg flex justify-center items-center mr-3 mt-1">
+                        <i class="icon-mobile"></i>
+                    </div>
+                    <div>
+                        <p class="raleway text-2xl text-white mb-1 leading-tight">Mobile compatibility</p>
+                        <p class="text-white leading-snug text-lg">We are living in a mobile world. All custom websites that we develop are optimized for a mobile experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services" class="px-4 mt-12 bg-ti-primary">
+        <div class="container mx-auto">
+            <p class="raleway text-7 uppercase text-center">tailwind <b class="text-ti-title-blue">services</b></p>
+            <div class="mt-4 w-3/4 mx-auto relative h-px divider"></div>
+            <div class="flex flex-col lg:flex-row mt-5 gap-8 mb-10">
+                <div class="w-full lg:w-1/3 border-ti-border shadow-md hover:shadow-none transition duration-200 border text-center text-ti-primary-dark py-8 px-8">
+                    <i class="icon-resize-full-alt text-lg bg-ti-btn mx-auto mb-4 rounded-full text-white flex flex-none justify-center items-center h-16 w-16"></i>
+                    <p class="raleway text-lg mb-3">Custom Web Applications</p>
+                    <div class="mb-3 w-3/4 mx-auto relative h-px divider"></div>
+                    <p>We specialize in developing custom web applications using your choice of popular frameworks such as VueJS, ReactJS, Ruby on Rails, PHP Lavarel, Node.js, Bootstrap and others.</p>
+                </div>
+                <div class="w-full lg:w-1/3 border-ti-border shadow-md hover:shadow-none transition duration-200 border text-center text-ti-primary-dark py-8 px-8">
+                    <i class="icon-wordpress text-lg bg-ti-btn mx-auto mb-4  flex flex-none justify-center items-center h-16 w-16 rounded-full text-white"></i>
+                    <p class="raleway text-lg mb-3">WordPress Development</p>
+                    <div class="mb-3 w-3/4 mx-auto relative h-px divider"></div>
+                    <p>We develop WordPress sites, from simple to complex, and integrate many popular WordPress plugins. Each WordPress site includes a user-friendly self-service content management interface for the customer.
+                    </p>
+                </div>
+                <div class="w-full lg:w-1/3 border-ti-border shadow-md hover:shadow-none transition duration-200 border text-center text-ti-primary-dark py-8 px-8">
+                    <a class="text-lg bg-ti-btn mx-auto mb-4  flex flex-none justify-center items-center h-16 w-16 rounded-full text-white uppercase transform-none">api</a>
+                    <p class="raleway text-lg mb-3">API Integrations</p>
+                    <div class="mb-3 w-3/4 mx-auto relative h-px divider"></div>
+                    <p>If your business requires multiple applications to communicate with each other, then you need to implement API's (Application Program Interfaces). We can automate many business processes to propel your business forward.</p>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row mt-5 gap-8 mb-10">
+                <div class="w-full lg:w-1/3 border-ti-border shadow-md hover:shadow-none transition duration-200 border text-center text-ti-primary-dark py-8 px-8">
+                    <i class="icon-sitemap text-lg bg-ti-btn  mx-auto mb-4 rounded-full text-white flex flex-none justify-center items-center h-16 w-16"></i>
+                    <p class="raleway text-lg mb-3">Outsourced IT Services</p>
+                    <div class="mb-3 w-3/4 mx-auto relative h-px divider"></div>
+                    <p>For businesses that don't require fulltime IT staff, we can serve as your outsourced IT staff. We can configure and support the IT environment of your choice: Windows, Linux, or Mac OS X.</p>
+                </div>
+                <div class="w-full lg:w-1/3 border-ti-border shadow-md hover:shadow-none transition duration-200 border text-center text-ti-primary-dark py-8 px-8">
+                    <i class="icon-server text-lg bg-ti-btn  mx-auto mb-4 rounded-full text-white flex flex-none justify-center items-center h-16 w-16"></i>
+                    <p class="raleway text-lg mb-3">CRM Integrations</p>
+                    <div class="mb-3 w-3/4 mx-auto relative h-px divider"></div>
+                    <p>We setup and configure leading CRM solutions, such as Salesforce or Hubspot, and seamlessly integrate your business web applications with the CRM to improve your customer relationships.
+                    </p>
+                </div>
+                <div class="w-full lg:w-1/3 border-ti-border shadow-md hover:shadow-none transition duration-200 border text-center text-ti-primary-dark py-8 px-8">
+                    <i class="icon-cloud text-lg bg-ti-btn  mx-auto mb-4 rounded-full text-white flex flex-none justify-center items-center h-16 w-16"></i>
+                    <p class="raleway text-lg mb-3">Cloud & DevOps Services</p>
+                    <div class="mb-3 w-3/4 mx-auto relative h-px divider"></div>
+                    <p>We can deploy, monitor, and scale your web application using continuous integration (CI) and continous deployment (CD) methodoliges on the leading cloud platforms such as AWS, DigitalOcean, Heroku, and others.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-4 mt-12 bg-ti-section-blue">
+        <div class="container mx-auto py-10">
+            <p class="raleway text-7 uppercase text-center text-white">DO YOU NEED AN INNOVATIVE AND WEB-BASED SOLUTION FOR YOUR BUSINESS?</p>
+            <div class="mt-4 mb-6 w-3/4 mx-auto relative h-px white-divider"></div>
+            <div class="text-center my-10 text-lg">
+                <a class="text-white py-3 px-6 bg-ti-btn-dark hover:bg-black rounded cursor-pointer">Contact us</a>
+            </div>
+        </div>
+    </div>
+    <div class="px-4 mt-12">
+        <div class="container mx-auto">
+            <p class="raleway text-7 uppercase text-center">our <b class="text-ti-title-blue">tools</b></p>
+            <div class="mt-4 w-3/4 mx-auto relative h-px divider"></div>
+            <div class="text-lg text-ti-primary-dark text-center mt-4">Programming languages ​​and web technologies we use
+            </div>
+            <div class="flex gap-8 mt-10 justify-evenly">
+                <img src="./dist/images/html.png" alt="">
+                <img src="./dist/images/vue.png" alt="">
+                <img src="./dist/images/react.png" alt="">
+                <img src="./dist/images/javascript.png" class="hidden sm:block" alt="">
+                <img src="./dist/images/rails.png" class="hidden md:block" alt="">
+                <img src="./dist/images/wordpress.png" class="hidden lg:block" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="process" class="px-4 mt-20">
+        <div class="container mx-auto">
+            <p class="raleway text-7 uppercase text-center">process <b class="text-ti-title-blue">flow</b></p>
+            <div class="mt-4 w-3/4 mx-auto relative h-px divider"></div>
+            <div class="timeline relative flex flex-col py-8 md:pb-40 mt-10">
+                <div class="w-full text-center -mt-8 mb-8">
+                    <span class="bg-ti-btn rounded text-white capitalize py-1 px-10">contact</span>
+                </div>
+                <div class="timeline-item w-full mt-4">
+                    <div class="float-left w-full sm:w-1/2 md:pr-10 relative">
+                        <span class="bg-ti-primary sm:float-right px-5 shadow border-ti-ham-border rounded shadow-md hover:shadow-none transition duration-200 h-16 flex flex-none text-center items-center border">
+                            <i class="icon-volume-control-phone text-ti-blue"></i><span
+                                class="text-sm font-bold ml-3">Free consultation</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-item w-full mt-4">
+                    <div class="float-right  w-full sm:w-1/2 md:pl-10 relative">
+                        <span class="bg-ti-primary sm:float-left px-5 shadow border-ti-ham-border rounded shadow-md hover:shadow-none transition duration-200 h-16 flex flex-none text-center items-center border">
+                            <i class="icon-pencil text-ti-blue"></i><span class="text-sm font-bold ml-3">Set goals and
+                                specifications</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-item w-full mt-4">
+                    <div class="float-left w-full sm:w-1/2 md:pr-10 relative">
+                        <span class="bg-ti-primary sm:float-right px-5 shadow border-ti-ham-border rounded shadow-md hover:shadow-none transition duration-200 h-16 flex flex-none text-center items-center border">
+                            <i class="icon-graduation-cap text-ti-blue"></i><span
+                                class="text-sm font-bold ml-3">Discuss development options
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-item w-full mt-4">
+                    <div class="float-right  w-full sm:w-1/2 md:pl-10 relative">
+                        <span class="bg-ti-primary sm:float-left px-5 shadow border-ti-ham-border rounded shadow-md hover:shadow-none transition duration-200 h-16 flex flex-none text-center items-center border">
+                            <i class="icon-android text-ti-blue"></i><span class="text-sm font-bold ml-3">Select technology stack
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-item w-full mt-4">
+                    <div class="float-left w-full sm:w-1/2 md:pr-10 relative">
+                        <span class="bg-ti-primary sm:float-right px-5 shadow border-ti-ham-border rounded shadow-md hover:shadow-none transition duration-200 h-16 flex flex-none text-center items-center border">
+                            <i class="icon-leaf text-ti-blue"></i><span
+                                class="text-sm font-bold ml-3">Design and development
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-item w-full mt-4">
+                    <div class="float-right  w-full sm:w-1/2 md:pl-10 relative">
+                        <span class="bg-ti-primary sm:float-left px-5 shadow border-ti-ham-border rounded shadow-md hover:shadow-none transition duration-200 h-16 flex flex-none text-center items-center border">
+                            <i class="icon-television text-ti-blue"></i><span class="text-sm font-bold ml-3">Beta version ready
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-item w-full mt-4">
+                    <div class="float-left w-full sm:w-1/2 md:pr-10 relative">
+                        <span class="bg-ti-primary sm:float-right px-5 shadow border-ti-ham-border rounded shadow-md hover:shadow-none transition duration-200 h-16 flex flex-none text-center items-center border">
+                            <i class="icon-resize-full-alt text-ti-blue"></i><span
+                                class="text-sm font-bold ml-3">Bug fixes and fine tuning
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-item w-full mt-4">
+                    <div class="float-right  w-full sm:w-1/2 md:pl-10 relative">
+                        <span class="bg-ti-primary sm:float-left px-5 shadow border-ti-ham-border rounded shadow-md hover:shadow-none transition duration-200 h-16 flex flex-none text-center items-center border">
+                            <i class="icon-upload-cloud text-ti-blue"></i><span class="text-sm font-bold ml-3">Production version ready
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="w-full text-center mt-20">
+                    <span class="bg-ti-btn rounded text-white capitalize py-1 px-10">launch!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="team" class="px-4 mt-12">
+        <div class="container mx-auto bg-ti-primary shadow-md hover:shadow-none transition duration-200 border border-ti-border py-8 px-6 md:px-10 lg:px-20">
+            <p class="raleway text-7 uppercase text-center">tailwind <b class="text-ti-title-blue">team</b></p>
+            <div class="mt-4 w-3/4 mx-auto relative h-px divider"></div>
+            <div class="flex flex-col lg:flex-row mt-8 gap-12 lg:gap-20 items-center lg:items-stretch">
+                <img src="./dist/images/team1.png" alt="" class="w-56 h-56">
+                <div>
+                    <p class="text-2xl raleway">Joseph Magen, Software Engineer
+                    </p>
+                    <div class="separator-2 h-px w-full my-3 relative"></div>
+                    <p class="text-ti-primary-dark leading-snug">I am a husband, father of four, software engineer, entreprenuer, and business opportunist. I first started teaching myself web technologies twenty years ago in 1999 and have been a self-taught developer every since.<br> Before starting
+                        Tailwind, I worked as a senior software engineer at Red Hat for almost 5 years. I am a big propopent of open-source software and wish I had more time to contribute to open-source projects. I moved to Israel from the USA in 2001.
+                        I graduated from Virgina Tech University with a B.S. degree in Industrial & Systems Engineering, and later completed a Masters of Business (MBA) from Bar Ilan University in Israel. My goal is to help clients experience a solution
+                        whereby:
+                        <br> The computer works for you. You don't work for the computer.</p>
+                    <div class="flex mt-6">
+                        <div class="h-10 w-10 flex justify-center items-center rounded-full bg-ti-linkedin text-white">
+                            <i class="icon-linkedin text-lg"></i></div>
+                        <div class="h-10 w-10 ml-1 flex justify-center items-center rounded-full bg-ti-facebook text-white">
+                            <i class="icon-github-circled text-lg"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-6 w-3/4 mx-auto relative h-px divider"></div>
+            <div class="flex flex-col lg:flex-row mt-8 gap-12 lg:gap-20 items-center lg:items-stretch">
+                <img src="./dist/images/team2.png" alt="" class="w-56 h-56">
+                <div>
+                    <p class="text-2xl raleway">Tomi Frank, Full Stack Web Developer</p>
+                    <div class="separator-2 h-px w-full my-3 relative"></div>
+                    <p class="text-ti-primary-dark leading-snug">For the past 8 years I have been working in the field of web development and have a demonstrated history of working in the information technology and services industry. Skilled in Javascript, VueJs (client-side), PHP, Laravel (server-side).<br>                        Expert in custom WordPress theme and plugin development, including Vue.js integration with the core WP CMS using the WP API.<br> Providing high level service is an important principle for me, which has guided me over the years.
+                        I enjoy developing, designing and building quality websites and web applications, and even more enjoying having satisfied customers.</p>
+                    <div class="flex mt-6">
+                        <div class="h-10 w-10 flex justify-center items-center rounded-full bg-ti-facebook text-white">
+                            <i class="icon-facebook text-lg"></i></div>
+                        <div class="h-10 w-10 ml-1 flex justify-center items-center rounded-full bg-ti-linkedin text-white">
+                            <i class="icon-linkedin text-lg"></i></div>
+                        <div class="h-10 w-10 ml-1 flex justify-center items-center rounded-full bg-ti-facebook text-white">
+                            <i class="icon-github-circled text-lg"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-4 mt-16 bg-ti-black py-10 hover:bg-ti-blue transition duration-200 group contact-section relative overflow-hidden">
+        <div class="container mx-auto flex flex-col items-center">
+            <p class="raleway text-7 uppercase text-white text-center md:group-hover:opacity-0 transition duration-200">
+                contact <b class="text-ti-title-blue">us</b></p>
+            <div class="transition duration-200 hidden md:block absolute w-full mt-10 text-center opacity-0 group-hover:opacity-100 top-0 transform scale-110 group-hover:scale-100">
+                <p class="raleway text-7 uppercase text-white text-center ">WE'D LOVE TO HEAR ABOUT YOUR PROJECT!</p>
+            </div>
+            <a class="rounded border border-white py-2 mt-3 px-6 text-white text-lg transform-none hover:bg-white hover:text-ti-black transition duration-200" href="mailto:dev.tailwind.co.il">dev.tailwind.co.il<i class="icon-mail-alt ml-2"></i></a>
+        </div>
+    </div>
+    <div id="contact" class="px-4 mt-16">
+        <div class="container mx-auto">
+            <div class="flex flex-col lg:flex-row gap-6 lg:gap-16">
+                <div class="flex w-full flex-col items-center">
+                    <img src="./dist/images/logo.png" class="h-20" alt="">
+                    <div class="flex flex-wrap gap-2 md:gap-6 items-center items-center justify-center">
+                        <span class="text-sm text-ti-primary-dark"><i class="text-ti-blue icon-location mr-1"></i>Kiryat
+                            Tikshoret, Neve Ilan, Judean Hills</span>
+                        <a href="mailto:dev@tailwind.co.li" class="text-lg text-ti-primary-dark transform-none"><i
+                                class="text-ti-blue icon-mail mr-1"></i>dev@tailwind.co.il</a>
+                    </div>
+                    <div class="separator-2 h-px w-full my-6 relative"></div>
+                    <div class="flex justify-center">
+                        <div class="h-10 w-10 rounded-full border border-ti-black text-ti-black text-lg flex items-center justify-center hover:border-ti-facebook hover:text-white hover:bg-ti-facebook transition duration-100 cursor-pointer">
+                            <i class="icon-facebook"></i></div>
+                        <div class="h-10 w-10 ml-1 rounded-full border border-ti-black text-ti-black text-lg flex items-center justify-center hover:border-ti-twitter hover:text-white hover:bg-ti-twitter transition duration-100 cursor-pointer">
+                            <i class="icon-twitter"></i></div>
+                    </div>
+                </div>
+                <div class="w-full">
+                    <div class="w-full">
+                        <div class="w-full  relative  fullname-input">
+                            <input type="text" class="w-full form-input text-ti-black" placeholder="Full Name">
+                            <i class="absolute text-ti-primary-dark icon-user"></i>
+                        </div>
+                    </div>
+                    <div class="w-full mt-3">
+                        <div class="w-full  relative  email-input">
+                            <input type="email" class="w-full form-input text-ti-black" placeholder="Email">
+                            <i class="absolute text-ti-primary-dark icon-mail-alt"></i>
+                        </div>
+                    </div>
+                    <div class="w-full mt-3">
+                        <div class="w-full  relative  message-input">
+                            <textarea name="" id="" cols="30" class="w-full form-textarea text-ti-black" rows="3" placeholder="Message"></textarea>
+                            <i class="absolute text-ti-primary-dark icon-pencil"></i>
+                        </div>
+                    </div>
+                    <input type="button" value="Send" class="rounded bg-ti-btn hover:bg-ti-blue text-white py-2 px-4 leading-5 mt-1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-12 px-4 bg-ti-footer-bg border-t border-ti-footer-bd">
+        <div class="container mx-auto">
+            <p class="py-6 text-center text-ti-footer text-sm">
+                Copyright © 2020 Tailwind IT Solutions. All Rights Reserved
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
